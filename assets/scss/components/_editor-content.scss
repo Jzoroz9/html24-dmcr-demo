@@ -1,0 +1,14 @@
+.editor-content{
+	font-size: var(--typo-sm); 
+	color: #475467;
+	line-height: 1.2em;
+	p{
+		margin-bottom: 15px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	img{
+		height: auto !important;
+	}
+}

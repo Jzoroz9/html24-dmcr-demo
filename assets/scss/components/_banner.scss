@@ -1,0 +1,20 @@
+.hero-banner {
+    position: relative;
+
+    // &::before {
+    //     content: '';
+    //     position: absolute;
+    //     bottom: 0;
+    //     background: url("../img/static/img-wave-tgp.png") bottom center no-repeat;
+    // }
+    .swiper {
+        position: relative;
+        .swiper-pagination {
+            position: absolute;
+            bottom: unset;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-top: 80px;
+        }
+    }
+}

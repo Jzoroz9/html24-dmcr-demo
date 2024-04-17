@@ -1,0 +1,117 @@
+// .layout-footer {
+//     padding: 110px 0;
+//     background-color: var(--color-primary);
+    
+//     .whead {
+//         margin: unset;
+//         .h-title {
+//             font-size: 105px;
+//             font-weight: var(--fw-bold);
+//             line-height: 1em;
+//             color: var(--color-light);
+//         }
+//     }
+//     .social-list {
+//         margin-top: 30px;
+//         .item-list {
+//             margin: 0 -10px;
+//             li {
+//                 padding: 0 10px;
+//                 .link {
+//                     width: 60px;
+//                     height: 60px;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     border-radius: 50%;
+//                     background-color: var(--color-light);
+//                     path {
+//                         transition: all 200ms ease;
+//                     }
+//                     &:hover {
+//                         background-color: var(--color-secondary);
+//                         path {
+//                             fill: white;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     .txt {
+//         font-weight: var(--fw-medium);
+//         line-height: 1.2em;
+//         color: var(--color-light);
+//         text-align: center;
+//         width: max-content;
+//         margin-left: auto;
+//         padding-bottom: 30px;
+//     }
+//     .f-contact {
+//         min-width: 380px;
+//         height: 64px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         border-radius: 32px;
+//         background-color: var(--color-light);
+//         span {
+//             font-weight: var(--fw-medium);
+//             color: var(--color-primary);
+//             margin-right: 15px;
+//         }
+//         .link {
+//             font-size: 42px;
+//             font-style: italic;
+//             font-weight: var(--fw-bold);
+//             color: var(--color-primary);
+//             text-decoration: none;
+//         }
+//     }
+// }
+
+// @media (max-width: 1600px)  {
+//     .layout-footer {padding: 80px 0;}
+//     .layout-footer .whead .h-title {font-size: 90px;}
+//     .layout-footer .social-list .item-list li .link {width: 55px;height: 55px;}
+//     .layout-footer .f-contact {min-width: 360px;}
+// }
+
+// @media (max-width: 1440px)  {
+//     .layout-footer .whead .h-title {font-size: 80px;}
+//     .layout-footer .social-list .item-list li .link {width: 50px;height: 50px;}
+//     .layout-footer .f-contact { min-width: 340px; height: 60px; }
+//     .layout-footer .f-contact .link {font-size: 38px;}
+// }
+
+// @media (max-width: 1199px)  {
+//     .layout-footer {padding: 70px 0;}
+//     .layout-footer .whead .h-title {font-size: 70px;}
+//     .layout-footer .social-list .item-list{ margin: 0 -5px; }
+//     .layout-footer .social-list .item-list li { padding: 0 5px; }
+//     .layout-footer .social-list .item-list li .link {width: 45px;height: 45px;}
+// }
+
+// @media (max-width: 991px)  {
+//     .layout-footer {padding: 40px 0;}
+//     .layout-footer .whead .h-title {font-size: 50px;}
+//     .layout-footer .social-list { margin-top: 20px; }
+//     .layout-footer .social-list .item-list li .link {width: 40px;height: 40px;}
+//     .layout-footer .txt {margin-left: auto; padding-bottom: 20px;}
+//     .layout-footer .f-contact .link { font-size: 34px; }
+//     .layout-footer .f-contact { min-width: 280px; height: 50px; }
+// }
+
+
+// @media (max-width: 767px) {
+//     .layout-footer { padding: 25px 0; }
+//     .layout-footer .whead .h-title {font-size: 40px;}
+//     .layout-footer .social-list { margin-top: 10px; }
+//     .layout-footer .social-list .item-list li .link {width: 35px;height: 35px;}
+//     .layout-footer .social-list .item-list li .link svg {transform: scale(.8);}
+//     .layout-footer .txt { margin-left: unset; padding-bottom: 10px; text-align: left; }
+//     .layout-footer .txt br {display: none;}
+//     .layout-footer .f-contact {height: 40px;}
+//     .layout-footer .f-contact span {margin-right: 10px;}
+//     .layout-footer .f-contact .link { font-size: 28px; }
+// }

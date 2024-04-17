@@ -1,0 +1,96 @@
+.articles-page {
+    .whead {
+        margin: unset;
+        .h-title {
+            margin-bottom: 40px;
+        }
+    }
+    .articles-list {
+        gap: 40px 25px;
+    }
+}
+
+
+.articles-detail {
+    .thumb-full {
+        .cover {
+            padding-bottom: 53.5%;
+            border-radius: 10px;
+        }
+    }
+    .date {
+        font-size: var(--typo-xs);
+        line-height: 1em;
+        color: #475467;
+    }
+    .social-list {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        .item-list {
+            margin: 0 -10px;
+            li {
+                width: max-content;
+                padding: 0 10px;
+            }
+        }
+        .link {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 1px solid #E4E8EB;
+        }
+    }
+
+    .title {
+        font-size: var(--typos-sm);
+        font-weight: var(--fw-medium);
+        line-height: 1em;
+        color: var(--color-primary);
+        margin-top: -5px;
+    }
+    .h-topic {
+        font-size: var(--typo-xl);
+        font-weight: var(--fw-bold);
+        @include text-limit(2, 1.2em, min);
+        color: var(--color-dark);
+        margin-top: 25px;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    .articles-page .whead .h-title {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .articles-page .articles-list { gap: 15px 10px; }
+}
+
+@media (max-width: 991px) {
+    .articles-detail .date {text-align: left;}
+    .articles-detail .social-list {justify-content: start; margin-top: 15px; margin-bottom: 20px;}
+    .articles-detail .social-list .item-list {margin: 0 -5px;}
+    .articles-detail .social-list .item-list li {padding: 0 5px;}
+    .articles-detail .social-list .link {width: 40px;height: 40px;}
+    .articles-detail .h-topic {margin-top: 10px;}
+}
+
+@media (max-width: 767px) {
+    .articles-page .whead .h-title { margin-bottom: 20px; }
+    .articles-page .articles-list { grid-template-columns: repeat(2, minmax(0, 1fr));}
+
+    .articles-detail .social-list .item-list {margin: 0 -2.5px;}
+    .articles-detail .social-list .item-list li {padding: 0 2.5px;}
+    .articles-detail .social-list .link {width: 35px;height: 35px;}
+    .articles-detail .social-list .link svg {zoom: 85%;}
+}
+
+@media (max-width: 575px) {
+    .articles-page .whead .h-title {margin-bottom: 15px;}
+}
